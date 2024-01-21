@@ -102,10 +102,3 @@ In conclusion, the variety of methods tested led to several findings:
 2. Fine-Tuning the hyperparameters of training models is important and challenging.
 3. Leveraging transfer learning proves highly beneficial for enhancing the performance of Deep Learning models, even when confronted with different datasets.
 4. Transformers perform very well in Computer Vision and give comparable results to Convolutional Neural Networks.
-
-## References
-**[1]** Ha, Qishen & Liu, Bo & Liu, Fuxu. (2020). Identifying Melanoma Images using EfficientNet Ensemble: Winning Solution to the SIIM-ISIC Melanoma Classification Challenge.
-**[2]** Team, K. (n.d.). Keras documentation: Image classification via fine-tuning with EfficientNet. https://keras.io/examples/vision/image_classification_efficientnet_fine_tuning/
-**[3]** https://pytorch.org/vision/main/models/swin_transformer.html [4]https://github.com/pytorch/vision/blob/d2bfd639e46e1c5dc3c177f889dc7750c8d137c7/references/classification/t
-rain.py#L92-L93
-**[5]** Perez, C. Vasconcelos, S. Avila, and E. Valle, “Data augmentation for skin lesion analysis”, in Or 2.0 context-aware operating theaters, computer assisted robotic endoscopy, clinical image-based procedures, and skin image analysis (Springer, 2018), pp. 303–311.
