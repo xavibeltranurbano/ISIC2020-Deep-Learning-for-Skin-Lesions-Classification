@@ -25,7 +25,7 @@ Due to the fact that transfer learning has been utilized for this project, the p
 
 
 ### · Training
-For the binary task, a variety of pretrained models, as detailed in Table 1 and Table 2, were individually tested. Following this, a combined approach was adopted, where the predictions from these individual models were aggregated. This aggregation was achieved through three distinct methods: computing the mean, determining the maximum, and applying majority voting to the predictions of the single models. Further details of this combined approach are presented in Table 3 and Table 4.
+For the binary task, a variety of pretrained models, as detailed in Table 1 and Table 3, were individually tested. Following this, a combined approach was adopted, where the predictions from these individual models were aggregated. This aggregation was achieved through three distinct methods: computing the mean, determining the maximum, and applying majority voting to the predictions of the single models. Further details of this combined approach are presented in Table 2 and Table 4.
 
 ## Results
 As mentioned in the previous section, both single and combined models have been tested in this project. On one hand, the results of the binary and multiclass task with the single model results, can be observed in Table 1 and Table 2, respectively. On the other hand, the results of the binary and multiclass task with the ensemble model results, can be observed in Table 3 and Table 4, respectively.
