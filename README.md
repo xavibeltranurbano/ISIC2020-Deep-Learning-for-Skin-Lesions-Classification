@@ -34,7 +34,7 @@ You can install the required libraries using the following:
 
 ```bash
 pip install opencv-python numpy pandas tqdm albumentations matplotlib pillow torch torchvision scikit-learn scikit-image
-
+```
 
 ## Dataset
 
