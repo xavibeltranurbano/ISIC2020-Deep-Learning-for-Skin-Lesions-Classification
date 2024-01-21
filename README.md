@@ -8,12 +8,33 @@ Authors: Xavier Beltran Urbano and [Muhammad Zain Amin](https://github.com/ZainA
   git https://github.com/xavibeltranurbano/DL_ISIC_2020.git
   cd DL_ISIC_2020
   ```
-2. Using a virtual environment is strongly recommended.
+## Libraries Used
+
+- [copy](https://docs.python.org/3/library/copy.html)
+- [time](https://docs.python.org/3/library/time.html)
+- [sys](https://docs.python.org/3/library/sys.html)
+- [logging](https://docs.python.org/3/library/logging.html)
+- [cv2 (OpenCV)](https://opencv.org/)
+- [numpy](https://numpy.org/)
+- [pandas](https://pandas.pydata.org/)
+- [tqdm](https://github.com/tqdm/tqdm)
+- [albumentations](https://albumentations.ai/)
+- [matplotlib](https://matplotlib.org/)
+- [collections](https://docs.python.org/3/library/collections.html)
+- [PIL (Pillow)](https://pillow.readthedocs.io/)
+- [torch](https://pytorch.org/)
+- [torchvision](https://pytorch.org/vision/stable/index.html)
+- [scikit-learn](https://scikit-learn.org/stable/)
+- [skimage (scikit-image)](https://scikit-image.org/)
+- [SummaryWriter (TensorBoard)](https://pytorch.org/docs/stable/tensorboard.html)
+
+## Installation
+
+You can install the required libraries using the following:
+
 ```bash
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-```
+pip install opencv-python numpy pandas tqdm albumentations matplotlib pillow torch torchvision scikit-learn scikit-image
+
 
 ## Dataset
 
