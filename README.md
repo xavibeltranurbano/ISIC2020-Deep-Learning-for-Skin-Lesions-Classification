@@ -5,8 +5,8 @@ Authors: Xavier Beltran Urbano and [Muhammad Zain Amin](https://github.com/ZainA
 
 1. Clone the project:
   ```bash
-  git https://github.com/xavibeltranurbano/DL-Ensemble-Brain-Tissue-Segmentation.git
-  cd DL-Ensemble-Brain-Tissue-Segmentation
+  git https://github.com/xavibeltranurbano/DL_ISIC_2020.git
+  cd DL_ISIC_2020
   ```
 2. Using a virtual environment is strongly recommended.
 ```bash
