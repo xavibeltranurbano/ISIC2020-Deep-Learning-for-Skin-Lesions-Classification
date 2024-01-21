@@ -58,6 +58,8 @@ As mentioned in the previous section, both single and combined models have been 
 <em>Table 2: Ensemble model results for the binary task.</em>
 </p>
 
+<div align="center">
+
 | Model           | Accuracy | Kappa |
 |-----------------|----------|-------|
 | ResNet50        | 0.9598   | 0.9278|
@@ -67,6 +69,8 @@ As mentioned in the previous section, both single and combined models have been 
 | Swin Small      | 0.9598   | 0.9280|
 | Swin V2 S       | **0.9724**   | **0.9507**|
 | Swin V2 B       | **0.9724**   | 0.9504|
+
+</div>
 <p align="center">
 <em>Table 3: Single model results for the multiclass task.</em>
 </p>
