@@ -1,6 +1,20 @@
 # A skin lesion classification approach using deep learning
 Authors: Xavier Beltran Urbano and [Muhammad Zain Amin](https://github.com/ZainAmin)
 
+## Setting up the Project
+
+1. Clone the project:
+  ```bash
+  git https://github.com/xavibeltranurbano/DL-Ensemble-Brain-Tissue-Segmentation.git
+  cd DL-Ensemble-Brain-Tissue-Segmentation
+  ```
+2. Using a virtual environment is strongly recommended.
+```bash
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
 ## Dataset
 
 To implement this project, we have utilized the dataset from the ISIC 2020 Challenge. For further information about the dataset, visit the following website: [(link)](https://challenge2020.isic-archive.com/)
