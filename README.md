@@ -24,6 +24,8 @@ Authors: Xavier Beltran Urbano and [Muhammad Zain Amin](https://github.com/ZainA
 - [PIL (Pillow)](https://pillow.readthedocs.io/)
 - [torch](https://pytorch.org/)
 - [torchvision](https://pytorch.org/vision/stable/index.html)
+- [tensorflow](https://www.tensorflow.org/)
+- [keras](https://keras.io/)
 - [scikit-learn](https://scikit-learn.org/stable/)
 - [skimage (scikit-image)](https://scikit-image.org/)
 - [SummaryWriter (TensorBoard)](https://pytorch.org/docs/stable/tensorboard.html)
@@ -33,7 +35,7 @@ Authors: Xavier Beltran Urbano and [Muhammad Zain Amin](https://github.com/ZainA
 You can install the required libraries using the following:
 
 ```bash
-pip install opencv-python numpy pandas tqdm albumentations matplotlib pillow torch torchvision scikit-learn scikit-image
+pip install opencv-python numpy pandas tqdm albumentations matplotlib pillow torch torchvision tensorflow keras scikit-learn scikit-image
 ```
 
 ## Dataset
