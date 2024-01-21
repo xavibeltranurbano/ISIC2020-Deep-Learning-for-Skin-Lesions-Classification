@@ -30,6 +30,7 @@ For the binary task, a variety of pretrained models, as detailed in Table 1 and 
 ## Results
 As mentioned in the previous section, both single and combined models have been tested in this project. On one hand, the results of the binary and multiclass task with the single model results, can be observed in Table 1 and Table 2, respectively. On the other hand, the results of the binary and multiclass task with the ensemble model results, can be observed in Table 3 and Table 4, respectively.
 <div align="center">
+
 | Model | Accuracy | Kappa |
 |-------|----------|-------|
 | ResNet50V2 | 0.8895 | 0.7788 |
@@ -42,12 +43,14 @@ As mentioned in the previous section, both single and combined models have been 
 | EfficientNetB7 | 0.8935 | 0.7866 |
 | DenseNet201 | 0.9028 | 0.8055 |
 | DenseNet169 | 0.8959 | 0.7918 |
+
 </div>
 <p align="center">
 <em>Table 1: Single model results for the binary task.</em>
 </p>
 
 <div align="center">
+
 | Models Name                               | Accuracy (Mean) | Kappa (Mean)     | Accuracy (Max) | Kappa (Max) | Accuracy (Majority Voting) | Kappa (Majority Voting)|
 | ---------------------------------         |-----------------|------------|----------------|-------------|----------------------------|-------|
 | All networks                              | 0.9270          | 0.8539     | 0.8464         | 0.6942      | 0.8669                     | 0.7327|
@@ -55,6 +58,7 @@ As mentioned in the previous section, both single and combined models have been 
 | Top 5 results (B3,B4,B5, B6, DenseNet201) | 0.9320          | 0.8640     | 0.8883         | 0.7772      | 0.9051                     | 0.8090|
 | Top 3 results (B4,B5, B6)                 | 0.9336          | **0.8672** | 0.9120         | 0.8243      | 0.9212                     | 0.8421|
 | Top 2 results (B5, B6)                    | **0.9317**      | 0.8635     | **0.9233**     | **0.8468**  | **0.9270**                 | **0.8538**|
+
 </div>
 <p align="center">
 <em>Table 2: Ensemble model results for the binary task.</em>
@@ -77,12 +81,14 @@ As mentioned in the previous section, both single and combined models have been 
 <em>Table 3: Single model results for the multiclass task.</em>
 </p>
 <div align="center">
+
 | Ensemble Models                                     | Accuracy | Kappa |
 |-----------------------------------------------------|----------|-------|
 | Swin S + Swin V2 S + Swin V2 B                     | 0.9732   | 0.9520|
 | Swin T + Swin S + Swin V2 S + Swin V2 B            | 0.9740   | 0.9534|
 | ResNet50 + Swin S + Swin V2 S + Swin V2 B          | 0.9748   | 0.9547|
 | EfficientB1 + Swin S + Swin V2 S + Swin V2 B       | **0.9780**   | **0.9604**|
+
 </div>
 <p align="center">
 <em>Table 4: Ensemble model results for the multiclass task.</em>
